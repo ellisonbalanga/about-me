@@ -154,3 +154,28 @@ hr {
   border-radius: 20px;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  .top-container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .mountain-img {
+    max-width: 100%;
+  }
+
+  .bottom-cloud {
+    display: block;
+  }
+
+  .intro {
+    width: 80%;
+  }
+
+}
