@@ -155,9 +155,14 @@ hr {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   body {
     width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin: auto;
   }
 
   .top-container {
@@ -170,12 +175,15 @@ hr {
     max-width: 100%;
   }
 
+  .top-cloud,
   .bottom-cloud {
-    display: block;
+    display: none;
   }
 
   .intro {
     width: 80%;
   }
+
+
 
 }
