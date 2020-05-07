@@ -161,8 +161,9 @@ hr {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: auto;
+    overflow: hidden;
   }
 
   .top-container {
